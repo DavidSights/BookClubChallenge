@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0746401B1F9B94009FB7FB /* AddFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07463F1B1F9B94009FB7FB /* AddFriendsTableViewController.m */; };
+		9A0746451B1FAD65009FB7FB /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0746421B1FAD65009FB7FB /* Friend.m */; };
+		9A0746461B1FAD65009FB7FB /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0746441B1FAD65009FB7FB /* Book.m */; };
+		9AAAE42F1B1F8F3800FB15E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAE42E1B1F8F3800FB15E8 /* main.m */; };
+		9AAAE4321B1F8F3800FB15E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAE4311B1F8F3800FB15E8 /* AppDelegate.m */; };
+		9AAAE4351B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAE4331B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodeld */; };
+		9AAAE4381B1F8F3800FB15E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAE4371B1F8F3800FB15E8 /* ViewController.m */; };
+		9AAAE43B1B1F8F3800FB15E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAE4391B1F8F3800FB15E8 /* Main.storyboard */; };
+		9AAAE43D1B1F8F3800FB15E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAE43C1B1F8F3800FB15E8 /* Images.xcassets */; };
+		9AAAE4401B1F8F3800FB15E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAE43E1B1F8F3800FB15E8 /* LaunchScreen.xib */; };
+		9AAAE44C1B1F8F3800FB15E8 /* BookClubChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAE44B1B1F8F3800FB15E8 /* BookClubChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AAAE4461B1F8F3800FB15E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AAAE4211B1F8F3800FB15E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAAE4281B1F8F3800FB15E8;
+			remoteInfo = BookClubChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A07463E1B1F9B94009FB7FB /* AddFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendsTableViewController.h; sourceTree = "<group>"; };
+		9A07463F1B1F9B94009FB7FB /* AddFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendsTableViewController.m; sourceTree = "<group>"; };
+		9A0746411B1FAD65009FB7FB /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		9A0746421B1FAD65009FB7FB /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		9A0746431B1FAD65009FB7FB /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		9A0746441B1FAD65009FB7FB /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		9AAAE4291B1F8F3800FB15E8 /* BookClubChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookClubChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAAE42D1B1F8F3800FB15E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAAE42E1B1F8F3800FB15E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AAAE4301B1F8F3800FB15E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AAAE4311B1F8F3800FB15E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AAAE4341B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookClubChallenge.xcdatamodel; sourceTree = "<group>"; };
+		9AAAE4361B1F8F3800FB15E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AAAE4371B1F8F3800FB15E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AAAE43A1B1F8F3800FB15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AAAE43C1B1F8F3800FB15E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AAAE43F1B1F8F3800FB15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AAAE4451B1F8F3800FB15E8 /* BookClubChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAAE44A1B1F8F3800FB15E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAAE44B1B1F8F3800FB15E8 /* BookClubChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookClubChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAAE4261B1F8F3800FB15E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAAE4421B1F8F3800FB15E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0746481B1FAD9C009FB7FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A0746411B1FAD65009FB7FB /* Friend.h */,
+				9A0746421B1FAD65009FB7FB /* Friend.m */,
+				9A0746431B1FAD65009FB7FB /* Book.h */,
+				9A0746441B1FAD65009FB7FB /* Book.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9AAAE4201B1F8F3800FB15E8 = {
+			isa = PBXGroup;
+			children = (
+				9AAAE42B1B1F8F3800FB15E8 /* BookClubChallenge */,
+				9AAAE4481B1F8F3800FB15E8 /* BookClubChallengeTests */,
+				9AAAE42A1B1F8F3800FB15E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AAAE42A1B1F8F3800FB15E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AAAE4291B1F8F3800FB15E8 /* BookClubChallenge.app */,
+				9AAAE4451B1F8F3800FB15E8 /* BookClubChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AAAE42B1B1F8F3800FB15E8 /* BookClubChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				9AAAE4301B1F8F3800FB15E8 /* AppDelegate.h */,
+				9AAAE4311B1F8F3800FB15E8 /* AppDelegate.m */,
+				9AAAE4361B1F8F3800FB15E8 /* ViewController.h */,
+				9AAAE4371B1F8F3800FB15E8 /* ViewController.m */,
+				9A07463E1B1F9B94009FB7FB /* AddFriendsTableViewController.h */,
+				9A07463F1B1F9B94009FB7FB /* AddFriendsTableViewController.m */,
+				9AAAE4391B1F8F3800FB15E8 /* Main.storyboard */,
+				9A0746481B1FAD9C009FB7FB /* Model */,
+				9AAAE43C1B1F8F3800FB15E8 /* Images.xcassets */,
+				9AAAE43E1B1F8F3800FB15E8 /* LaunchScreen.xib */,
+				9AAAE4331B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodeld */,
+				9AAAE42C1B1F8F3800FB15E8 /* Supporting Files */,
+			);
+			path = BookClubChallenge;
+			sourceTree = "<group>";
+		};
+		9AAAE42C1B1F8F3800FB15E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AAAE42D1B1F8F3800FB15E8 /* Info.plist */,
+				9AAAE42E1B1F8F3800FB15E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AAAE4481B1F8F3800FB15E8 /* BookClubChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AAAE44B1B1F8F3800FB15E8 /* BookClubChallengeTests.m */,
+				9AAAE4491B1F8F3800FB15E8 /* Supporting Files */,
+			);
+			path = BookClubChallengeTests;
+			sourceTree = "<group>";
+		};
+		9AAAE4491B1F8F3800FB15E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AAAE44A1B1F8F3800FB15E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AAAE4281B1F8F3800FB15E8 /* BookClubChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAAE44F1B1F8F3800FB15E8 /* Build configuration list for PBXNativeTarget "BookClubChallenge" */;
+			buildPhases = (
+				9AAAE4251B1F8F3800FB15E8 /* Sources */,
+				9AAAE4261B1F8F3800FB15E8 /* Frameworks */,
+				9AAAE4271B1F8F3800FB15E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookClubChallenge;
+			productName = BookClubChallenge;
+			productReference = 9AAAE4291B1F8F3800FB15E8 /* BookClubChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AAAE4441B1F8F3800FB15E8 /* BookClubChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAAE4521B1F8F3800FB15E8 /* Build configuration list for PBXNativeTarget "BookClubChallengeTests" */;
+			buildPhases = (
+				9AAAE4411B1F8F3800FB15E8 /* Sources */,
+				9AAAE4421B1F8F3800FB15E8 /* Frameworks */,
+				9AAAE4431B1F8F3800FB15E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAAE4471B1F8F3800FB15E8 /* PBXTargetDependency */,
+			);
+			name = BookClubChallengeTests;
+			productName = BookClubChallengeTests;
+			productReference = 9AAAE4451B1F8F3800FB15E8 /* BookClubChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AAAE4211B1F8F3800FB15E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DavidSights;
+				TargetAttributes = {
+					9AAAE4281B1F8F3800FB15E8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9AAAE4441B1F8F3800FB15E8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9AAAE4281B1F8F3800FB15E8;
+					};
+				};
+			};
+			buildConfigurationList = 9AAAE4241B1F8F3800FB15E8 /* Build configuration list for PBXProject "BookClubChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AAAE4201B1F8F3800FB15E8;
+			productRefGroup = 9AAAE42A1B1F8F3800FB15E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AAAE4281B1F8F3800FB15E8 /* BookClubChallenge */,
+				9AAAE4441B1F8F3800FB15E8 /* BookClubChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAAE4271B1F8F3800FB15E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAAE43B1B1F8F3800FB15E8 /* Main.storyboard in Resources */,
+				9AAAE4401B1F8F3800FB15E8 /* LaunchScreen.xib in Resources */,
+				9AAAE43D1B1F8F3800FB15E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAAE4431B1F8F3800FB15E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAAE4251B1F8F3800FB15E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAAE4321B1F8F3800FB15E8 /* AppDelegate.m in Sources */,
+				9A0746401B1F9B94009FB7FB /* AddFriendsTableViewController.m in Sources */,
+				9AAAE42F1B1F8F3800FB15E8 /* main.m in Sources */,
+				9A0746451B1FAD65009FB7FB /* Friend.m in Sources */,
+				9AAAE4381B1F8F3800FB15E8 /* ViewController.m in Sources */,
+				9A0746461B1FAD65009FB7FB /* Book.m in Sources */,
+				9AAAE4351B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAAE4411B1F8F3800FB15E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAAE44C1B1F8F3800FB15E8 /* BookClubChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AAAE4471B1F8F3800FB15E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AAAE4281B1F8F3800FB15E8 /* BookClubChallenge */;
+			targetProxy = 9AAAE4461B1F8F3800FB15E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AAAE4391B1F8F3800FB15E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AAAE43A1B1F8F3800FB15E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AAAE43E1B1F8F3800FB15E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AAAE43F1B1F8F3800FB15E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AAAE44D1B1F8F3800FB15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AAAE44E1B1F8F3800FB15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AAAE4501B1F8F3800FB15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookClubChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AAAE4511B1F8F3800FB15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookClubChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AAAE4531B1F8F3800FB15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BookClubChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookClubChallenge.app/BookClubChallenge";
+			};
+			name = Debug;
+		};
+		9AAAE4541B1F8F3800FB15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BookClubChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookClubChallenge.app/BookClubChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AAAE4241B1F8F3800FB15E8 /* Build configuration list for PBXProject "BookClubChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAAE44D1B1F8F3800FB15E8 /* Debug */,
+				9AAAE44E1B1F8F3800FB15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAAE44F1B1F8F3800FB15E8 /* Build configuration list for PBXNativeTarget "BookClubChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAAE4501B1F8F3800FB15E8 /* Debug */,
+				9AAAE4511B1F8F3800FB15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAAE4521B1F8F3800FB15E8 /* Build configuration list for PBXNativeTarget "BookClubChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAAE4531B1F8F3800FB15E8 /* Debug */,
+				9AAAE4541B1F8F3800FB15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AAAE4331B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AAAE4341B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodel */,
+			);
+			currentVersion = 9AAAE4341B1F8F3800FB15E8 /* BookClubChallenge.xcdatamodel */;
+			path = BookClubChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AAAE4211B1F8F3800FB15E8 /* Project object */;
+}
